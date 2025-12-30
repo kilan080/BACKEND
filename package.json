@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/kilan080/BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/kilan080/BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilan080/BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "kilani olamilekan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
